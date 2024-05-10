@@ -7,22 +7,14 @@ Shortly is a simple yet powerful link shortening service designed to make sharin
 ### Features
 
 1. **Easy Link Shortening**: Simply paste your long URL into Shortly's interface, and it will generate a shortened version instantly.
-  
-2. **Analytics**: Track the performance of your shortened links with built-in analytics, including click-through rates and geographic data.
-
-3. **API Access**: Integrate Shortly into your own applications or services using our simple API.
-
-4. **Secure**: Shortly prioritizes the security and privacy of your links. All links are encrypted and stored securely.
-
+ 
 ### How to Use
 
 1. **Paste Link**: Copy and paste your long URL into the input box on Shortly's homepage.
 
-2. **Customize (Optional)**: If you want a custom short link, you can enter your desired alias in the provided field.
+2. **Shorten**: Click the "Shorten" button to generate your shortened link.
 
-3. **Shorten**: Click the "Shorten" button to generate your shortened link.
-
-4. **Share**: Copy the shortened link and share it with others. That's it!
+3. **Share**: Copy the shortened link and share it with others. That's it!
 
 ### Usage
 
