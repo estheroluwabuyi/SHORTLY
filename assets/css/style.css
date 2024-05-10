@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;400;500&display=swap');
+
+:root{
+  /* COLORS */
+--bg: white;
+--accent: rgb(16, 195, 223);
+--accent-2: rgb(63, 51, 63);
+--f-color-1: rgba(94, 92, 92, 0.911);
+--f-color-2: rgb(24, 23, 23);
+--white: rgb(255, 246, 246);
+
+
+/* FONT FAMILY */
+--mt: "Montserrat", sans-serif;
+--rt: "Roboto", sans-serif;
+--pd: "Playfair Display", serif;
+--rw: "Raleway", sans-serif;
+
+
+/* FONT SIZE */
+--norm-F: 1.5rem;
+--mid-F: 1.9rem;
+--large-F: 2rem;
+--XLarge-F: 2.5rem;
+
+
+/* TRANSITION */
+--tans-1: 500ms ease;
+--trans-2: 800ms ease;
+--trans-3: 1s ease;
+}
+
+
+
+/* GENERAL STYLING */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 66.5%;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+body {
+  font-size: var(--norm-F);
+  color: var(--f-color-1);
+  background-color: var(--white);
+  font-family: var(--mt);
+}
+
+img,
+ion-icon,
+textarea,
+button,
+input {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+
+/* NAV */
+/* NAV-BAR */
+.nav--bar__links-btns,
+.nav--bar__links-links,
+.nav--bar__links,
+.nav--bar{
+  display: flex;
+  align-items: center;
+}
+
+.nav--bar{
+  position: relative;
+  justify-content: space-between;
+  padding: 3rem 7rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.nav--bar__links,
+.nav--bar__links-btns{
+  gap: 3.5rem;
+}
+
+.nav--bar__links-links{
+  gap: 2rem ;
+}
+
+.nav--bar__links-btns_signUp{
+  background: var(--accent);
+  color: var(--white);
+  font-size: var(--large-F);
+  font-family: var(--rw);
+  font-weight: 700;
+  padding: .85rem 1.5rem;
+  border-radius: 22px;
+}
+
+#menuBtn{
+  width: 35px;
+}
+
+#menuBtn img{
+  width: 100%;
+  height: auto;
+}
+
+
+/* DROP NAV BAR */
+.nav--links{
+  position: absolute;
+  top: 0;
+ /* left: 50%; */
+ background: var(--accent-2);
+ /* width: 50%; */
+ text-transform: capitalize;
+ color: var(--white);
+}
+
+.nav--links button{
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media(min-width:901px) {
+  .nav--bar__menuBtn{
+    display: none;
+  }
+}
+
+
+
+@media (max-width:900px) {
+  .nav--bar__links-btns_signUp,
+  .nav--bar__links-btns_logIn,
+  .nav--bar__links-links{
+    display: none;
+  }
+  
+  .nav--bar{
+    padding: 2rem 3rem;
+  }
+ 
+}
