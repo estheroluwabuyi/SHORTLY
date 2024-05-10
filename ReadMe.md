@@ -24,11 +24,10 @@ Shortly is a simple yet powerful link shortening service designed to make sharin
 
 4. **Share**: Copy the shortened link and share it with others. That's it!
 
-### API Documentation
+### Usage
 
-If you're a developer looking to integrate Shortly's link shortening capabilities into your own application, simply download the zip.
-
+If you're a developer looking to integrate Shortly's link shortening capabilities into your own application, simply clone the repository and open the index.html file in your web browser. Customize the website's styling by modifying the CSS file according to your preferences.
 
 Thank you for choosing Shortly for your link shortening needs! We hope you find our service useful and efficient. Happy linking! 🚀
 
-**License**: [MIT License](LICENSE)
+**License**: This project is licensed under the MIT License, allowing for free and open-source use, modification, and distribution.
