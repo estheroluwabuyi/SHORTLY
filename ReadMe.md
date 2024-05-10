@@ -22,4 +22,5 @@ If you're a developer looking to integrate Shortly's link shortening capabilitie
 
 Thank you for choosing Shortly for your link shortening needs! We hope you find our service useful and efficient. Happy linking! 🚀
 
-**License**: This project is licensed under the MIT License, allowing for free and open-source use, modification, and distribution.
+### License
+This project is licensed under the MIT License, allowing for free and open-source use, modification, and distribution.
