@@ -8,13 +8,11 @@ Shortly is a simple yet powerful link shortening service designed to make sharin
 
 1. **Easy Link Shortening**: Simply paste your long URL into Shortly's interface, and it will generate a shortened version instantly.
   
-2. **Custom Short Links**: Optionally customize your shortened links to make them more memorable and branded.
+2. **Analytics**: Track the performance of your shortened links with built-in analytics, including click-through rates and geographic data.
 
-3. **Analytics**: Track the performance of your shortened links with built-in analytics, including click-through rates and geographic data.
+3. **API Access**: Integrate Shortly into your own applications or services using our simple API.
 
-4. **API Access**: Integrate Shortly into your own applications or services using our simple API.
-
-5. **Secure**: Shortly prioritizes the security and privacy of your links. All links are encrypted and stored securely.
+4. **Secure**: Shortly prioritizes the security and privacy of your links. All links are encrypted and stored securely.
 
 ### How to Use
 
@@ -28,25 +26,8 @@ Shortly is a simple yet powerful link shortening service designed to make sharin
 
 ### API Documentation
 
-If you're a developer looking to integrate Shortly's link shortening capabilities into your own application, check out our [API documentation](https://shortlyapi.docs.com) for detailed instructions.
+If you're a developer looking to integrate Shortly's link shortening capabilities into your own application, simply download the zip.
 
-### Contact Us
-
-Have questions, feedback, or need support? Feel free to reach out to us at [support@shortly.com](mailto:support@shortly.com). We're always happy to assist you!
-
-### About Us
-
-Shortly is brought to you by a team of passionate developers dedicated to simplifying the way we share links online. Learn more about our mission and team on our [About](https://shortly.com/about) page.
-
-### Privacy Policy
-
-Your privacy is important to us. Read our [Privacy Policy](https://shortly.com/privacy) to understand how we handle your data and protect your information.
-
-### Terms of Service
-
-By using Shortly, you agree to our [Terms of Service](https://shortly.com/terms). Please read them carefully before using our service.
-
----
 
 Thank you for choosing Shortly for your link shortening needs! We hope you find our service useful and efficient. Happy linking! 🚀
 
