@@ -1,6 +1,4 @@
-**Shortly - Link Shortening Service**
-
----
+# Shortly - Link Shortening Service
 
 ### Overview
 
