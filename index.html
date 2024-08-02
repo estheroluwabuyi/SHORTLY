@@ -3,24 +3,61 @@
   <head>
     <meta charset="UTF-8" />
 
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shortly</title>
-    <script type="module" crossorigin src="/assets/index-CNqIS4mS.js"></script>
+    <script
+      defer
+      type="module"
+      crossorigin
+      src="/assets/index-CNqIS4mS.js"
+    ></script>
     <link rel="stylesheet" crossorigin href="/assets/index-KS95bQNR.css" />
+    <script defer src="/assets/js/script.js"></script>
+    <!-- <script type="module" src="./assets/js/script.js"></script> -->
   </head>
 
   <body>
-    <nav class="nav">
-      <article class="nav--bar">
-        
-        <section class="nav--bar__links">
-          <figure class="nav--bar__logo">
-            <img src="/assets/img/logo.svg" alt="">
-          </figure>
+    <header>
+      <nav class="nav">
+        <article class="nav--bar">
+          <section class="nav--bar__links">
+            <figure class="nav--bar__logo">
+              <img src="/assets/img/logo.svg" alt="" />
+            </figure>
 
-          <ul class="nav--bar__links-links">
+            <ul class="nav--bar__links-links">
+              <li class="nav--bar__links-links_items">
+                <a href="#">features</a>
+              </li>
+
+              <li class="nav--bar__links-links_items">
+                <a href="#">pricing</a>
+              </li>
+              <li class="nav--bar__links-links_items">
+                <a href="#">resources</a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="nav--bar__links-btns">
+            <button class="nav--bar__links-btns_logIn">
+              <a href="#">login</a>
+            </button>
+
+            <button class="nav--bar__links-btns_signUp">
+              <a href="#">sign up</a>
+            </button>
+
+            <button class="nav--bar__menuBtn" id="menuBtn">
+              <img src="./assets/img/menu-gray.png" alt="Hamburger Menu" />
+            </button>
+          </section>
+        </article>
+
+        <section class="nav--links">
+          <ul class="nav--links-links">
             <li class="nav--bar__links-links_items">
               <a href="#">features</a>
             </li>
@@ -28,65 +65,59 @@
             <li class="nav--bar__links-links_items">
               <a href="#">pricing</a>
             </li>
+
             <li class="nav--bar__links-links_items">
               <a href="#">resources</a>
             </li>
-
           </ul>
-        </section>
 
-          <section class="nav--bar__links-btns">
-
-            <button class="nav--bar__links-btns_logIn">
-              <a href="#">login</a>
-            </button>
-
-            <buttons class="nav--bar__links-btns_signUp">
-              <a href="#">sign up</a>
-            </buttons>
-
-            <button class="nav--bar__menuBtn" id="menuBtn">
-              <img src="./assets/img/menu-gray.png" alt="Hamburger Menu">
-            </button>
-
-          </section>
-
-       
-        </article>
-
-      <section class="nav--links">
-        
-        <ul class="nav--links-links">
-          <li class="nav--bar__links-links_items">
-            <a href="#">features</a>
-          </li>
-
-          <li class="nav--bar__links-links_items">
-            <a href="#">pricing</a>
-          </li>
-
-          <li class="nav--bar__links-links_items">
-            <a href="#">resources</a>
-          </li>
-        </ul>
-
-
-        <div class="nav--links-btn">
+          <div class="nav--links-btn">
             <button class="nav--links-btns_logIn">
               <a href="#">login</a>
             </button>
 
-             <button class="nav--links-btns_signUp">
+            <button class="nav--links-btns_signUp">
               <a href="#">sign up</a>
             </button>
-            
-        </div>
+          </div>
+        </section>
+      </nav>
 
+      <section class="heroPage">
+        <figure class="heroPage-img">
+          <img
+            src="./assets/img/illustration-working.svg"
+            alt="Working Illustration"
+            height="500"
+            width="700"
+            loading="lazy"
+          />
+        </figure>
+
+        <div class="heroPage-texts">
+          <h1 class="heroPage-texts--header">Smarter Links, Better Results!</h1>
+          <p class="heroPage-texts--texts">
+            Transform long URLs into short, branded links that are easy to share
+            and remember.
+          </p>
+          <button class="nav--links-btns_signUp heroPage-texts--btn">
+            <a href="#">get started</a>
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="search-bar">
+        <input type="text" class="search-bar--search" />
+        <button class="search-bar--btn"></button>
       </section>
 
-    </nav>
-
-    <script src="/assets/js/script.js"></script>
+      <section class="card-container">
+        <div class="card-container--cards"></div>
+        <div class="card-container--cards"></div>
+        <div class="card-container--cards"></div>
+      </section>
+    </main>
   </body>
 </html>
-
