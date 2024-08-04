@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
 
     <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/assets/img/illustration-working.svg"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shortly</title>
     <script
@@ -13,13 +17,13 @@
       crossorigin
       src="/assets/index-CNqIS4mS.js"
     ></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-KS95bQNR.css" />
+    <!-- <link rel="stylesheet" crossorigin href="/assets/index-KS95bQNR.css" /> -->
     <script defer src="/assets/js/script.js"></script>
     <!-- <script type="module" src="./assets/js/script.js"></script> -->
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <nav class="nav">
         <article class="nav--bar">
           <section class="nav--bar__links">
@@ -105,14 +109,27 @@
           </button>
         </div>
       </section>
+
+      <!-- FORM  -->
+      <form id="search-form">
+        <input
+          type="text"
+          class="search--field"
+          placeholder="Shorten What Link? :) "
+        />
+        <button class="search--btn nav--links-btns_signUp">shorten it</button>
+
+          <img src="./assets/img/wave.svg" alt="wave svg" class="wave wave-1">
+          <img src="./assets/img/wave-2.svg" alt="wave svg" class="wave wave-2">
+          <!-- <img src="./assets/img/wave.svg" alt="wave svg"> -->
+     
+      </form>
+     
     </header>
 
     <main>
-      <section class="search-bar">
-        <input type="text" class="search-bar--search" />
-        <button class="search-bar--btn"></button>
-      </section>
-
+       
+     
       <section class="card-container">
         <div class="card-container--cards"></div>
         <div class="card-container--cards"></div>

@@ -3,9 +3,19 @@
 // MENU BUTTON
 const menuBtn = document.getElementById('menuBtn');
 const menuBtnImg = document.querySelector('.nav--bar__menuBtn img');
-const navLink = document.querySelector('.nav--links')
+const navLink = document.querySelector('.nav--links');
+const form = document.querySelector('#search-form');
 
-const btnClick = function () {
+const btn = form.querySelector('.search--btn');
+const input = form.querySelector('.search--field')
+
+btn.addEventListener('click', function(e){
+e.preventDefault();
+});
+
+
+
+const btnToggler = function () {
 
     menuBtn.addEventListener('click', ()=>{
         if (menuBtnImg.getAttribute('src') === './assets/img/menu-gray.png') {
@@ -31,4 +41,4 @@ const btnClick = function () {
     })
 }
 
-btnClick();
+btnToggler();
